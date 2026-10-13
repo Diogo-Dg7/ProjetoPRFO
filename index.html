@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRFO - Projeto de Recirculação e Filtragem de Óleo</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO -->
+    <header id="header">
+        <div class="container nav-container">
+            <div class="logo">
+                <i class="fa-solid fa-gears"></i> <span>PRFO - SENAI</span>
+            </div>
+            <!-- Botão do Menu Hamburguês para Celular -->
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <nav>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#problema">O Problema</a></li>
+                    <li><a href="#solucao">A Solução</a></li>
+                    <li><a href="#prototipo">Protótipo</a></li>
+                    <li><a href="#resultados">Resultados</a></li>
+                    <li><a href="#timeline">Linha do Tempo</a></li>
+                    <li><a href="#integrantes">Integrantes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container hero-content">
+            <span class="badge">Projeto Integrador - Caxias do Sul / RS</span>
+            <h1>Recirculação e Filtragem Inteligente de Óleo</h1>
+            <p>Automatização, versatilidade e baixo custo para transformar o processo de usinagem, eliminando desperdícios e trazendo alto lucro financeiro.</p>
+            <div class="hero-buttons">
+                <a href="#problema" class="btn btn-primary">Conheça o Projeto</a>
+                <a href="#prototipo" class="btn btn-secondary">Ver Protótipo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 1. SEÇÃO O PROBLEMA -->
+    <section id="problema" class="section bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>O Desafio na Linha de Produção</h2>
+                <p>Análise detalhada do cenário encontrado na empresa Sumig Soluções para Solda e Corte</p>
+            </div>
+            <div class="grid-3">
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-droplet-slash"></i></div>
+                    <h3>Desperdício Elevado</h3>
+                    <p>Mais de <strong>1.000 litros de óleo</strong> de corte descartados incorretamente por mês, misturados aos cavacos metálicos.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-chart-line-down"></i></div>
+                    <h3>Prejuízo Financeiro</h3>
+                    <p>Cerca de <strong>R$ 25 mil em perdas mensais</strong>, totalizando aproximadamente <strong>R$ 300 mil anuais</strong> jogados fora.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-user-injured"></i></div>
+                    <h3>Ergonomia e Esforço</h3>
+                    <p>Gestos manuais repetitivos que geram desgaste físico e mental para os operadores na manipulação direta do óleo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. SEÇÃO A SOLUÇÃO -->
+    <section id="solucao" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossa Solução: PRFO</h2>
+                <p>Sistema automatizado que separa o óleo de corte dos resíduos metálicos e o devolve limpo à máquina</p>
+            </div>
+            <div class="grid-4">
+                <div class="step-card">
+                    <div class="step-number">01</div>
+                    <h3>Reservatório</h3>
+                    <p>Recebe a mistura de óleo e cavaco proveniente da usinagem.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">02</div>
+                    <h3>Filtragem</h3>
+                    <p>Retém cavacos e micropartículas através de etapas estruturadas de filtragem.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">03</div>
+                    <h3>Bombeamento</h3>
+                    <p>Sensores de nível acionam a bomba de forma autônoma para retornar o fluido.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">04</div>
+                    <h3>Reutilização</h3>
+                    <p>Fluido pronto para uso novamente, reduzindo manuseio e impactos ambientais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. SEÇÃO PROTÓTIPO -->
+    <section id="prototipo" class="section bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Protótipo em Funcionamento</h2>
+                <p>Demonstração prática da automação, filtragem e operação do sistema de recirculação de óleo</p>
+            </div>
+            <div class="video-grid">
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <iframe 
+                            src="https://www.youtube.com/embed/QV73MyeaUFo" 
+                            title="Demonstração do Protótipo 1" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Funcionamento do Sistema</h3>
+                        <p>Demonstração do ciclo autônomo de filtragem e direcionamento do óleo reciclado.</p>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <iframe 
+                            src="https://www.youtube.com/embed/1RGIATpM_h4" 
+                            title="Demonstração do Protótipo 2" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="video-info">
+                        <h3>Operação na Máquina</h3>
+                        <p>Aplicação direta do dispositivo automatizado junto ao processo produtivo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. SEÇÃO RESULTADOS E FINANCEIRO -->
+    <section id="resultados" class="section bg-dark text-white">
+        <div class="container">
+            <div class="section-title">
+                <h2>Viabilidade e Retorno Financeiro</h2>
+                <p>Números reais que comprovam a eficiência do investimento</p>
+            </div>
+            <div class="grid-3 text-center">
+                <div class="stat-box">
+                    <h3>R$ 3.000</h3>
+                    <p>Custo de Implantação do Projeto</p>
+                </div>
+                <div class="stat-box">
+                    <h3>90%</h3>
+                    <p>Economia de Recuperação de Óleo</p>
+                </div>
+                <div class="stat-box">
+                    <h3>~ 4 Dias</h3>
+                    <p>Payback (Retorno do Investimento)</p>
+                </div>
+            </div>
+            <div class="highlight-banner">
+                <p><i class="fa-solid fa-lightbulb"></i> <strong>Impacto Anual Potencial:</strong> Economia bruta estimada de até <strong>R$ 270 mil por ano</strong> na recuperação de fluidos!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. SEÇÃO TIMELINE -->
+    <section id="timeline" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Linha do Tempo do Projeto</h2>
+                <p>Da concepção acadêmica à entrega prática na indústria</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">28/04/2026</div>
+                    <div class="timeline-content">
+                        <h3>Apresentação e Visita Técnica</h3>
+                        <p>Levantamento inicial do problema apresentado pelo SENAI e primeiro contato em campo na empresa Sumig.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">12/05/2026</div>
+                    <div class="timeline-content">
+                        <h3>Análise e Seleção de Componentes</h3>
+                        <p>Estudo de viabilidade, escolha de materiais e teste de funcionamento dos protótipos.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">08/06/2026</div>
+                    <div class="timeline-content">
+                        <h3>Construção do Protótipo</h3>
+                        <p>Confecção e montagem física do sistema na escola.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">11/09/2026</div>
+                    <div class="timeline-content">
+                        <h3>Entrega e Implantação</h3>
+                        <p>Instalação definitiva do sistema mecanizado e automatizado na linha de produção.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. SEÇÃO INTEGRANTES E ORIENTADOR -->
+    <section id="integrantes" class="section bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Equipe do Projeto</h2>
+                <p>Integrantes e Orientador responsáveis pelo desenvolvimento do PRFO - SENAI Caxias do Sul</p>
+            </div>
+            
+            <!-- Os 5 Integrantes do Grupo -->
+            <div class="grid-5 text-center">
+                <div class="member-card">
+                    <div class="member-avatar">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=300&q=80" alt="Integrante 1">
+                    </div>
+                    <h3>Leonardo Dutra</h3>
+                    <p>Desenvolvedor Eletromecânico</p>
+                </div>
+                <div class="member-card">
+                    <div class="member-avatar">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80" alt="Integrante 2">
+                    </div>
+                    <h3>Gabrielli Cazara</h3>
+                    <p>Desenvolvedor Eletromecânico</p>
+                </div>
+                <div class="member-card">
+                    <div class="member-avatar">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80" alt="Integrante 3">
+                    </div>
+                    <h3>Samuel Origotti</h3>
+                    <p>Programador CNC</p>
+                </div>
+                <div class="member-card">
+                    <div class="member-avatar">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80" alt="Integrante 4">
+                    </div>
+                    <h3>Kristofer Sales</h3>
+                    <p>Programador CNC</p>
+                </div>
+                <div class="member-card">
+                    <div class="member-avatar">
+                        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=300&q=80" alt="Integrante 5">
+                    </div>
+                    <h3>Jennifer Zanato</h3>
+                    <p>Logística</p>
+                </div>
+            </div>
+
+            <!-- Professor / Orientador Abaixo -->
+            <div class="teacher-container">
+                <div class="member-card teacher-card">
+                    <div class="member-avatar teacher-avatar">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=300&q=80" alt="Professor Orientador">
+                    </div>
+                    <h3>Erick Schiavo</h3>
+                    <p class="role-teacher">Professor / Orientador</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 - Projeto Integrador PRFO | SENAI Caxias do Sul - RS</p>
+            <p class="small-text">Sistema FIERGS / SESI / SENAI / IEL / CIERGS</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
